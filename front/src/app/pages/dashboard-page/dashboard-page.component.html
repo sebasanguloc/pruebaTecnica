@@ -1,0 +1,8 @@
+<div>
+  @for ( client of clients(); track $index ) {
+    <div>
+      <p>{{ client.name }}</p>
+      <button (click)="consultar()">consultar</button>
+    </div>
+  }
+</div>
